@@ -5,7 +5,8 @@ on:
    tags:
      - g**
 
-jobs:   build_packages_MacOS:
+  jobs:
+    build_packages_MacOS:
 
       runs-on: macos-latest
 
