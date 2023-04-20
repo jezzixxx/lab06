@@ -32,3 +32,21 @@ jobs:
         artifacts: "build/*.deb,build/*.tar.gz,build/*.zip,build/*.rpm"
         token: ${{ secrets.TOKEN }}
 
+  build_packages_MacOS:
+      runs-on: macos-latest
+      steps:
+      - uses: actions/checkout@v3
+
+      -  name: Build MacOS
+         run: |
+           mkdir build && cd build
+           cmake -DGENERATOR=BIN ..
+           cmake --build .
+           cpack -G DragNDrop
+
+      - name: Make a release
+        uses: ncipollo/release-action@v1.10.0
+
+        with:
+          artifacts: "build/*.dmg"
+          token: ${{ secrets.TOKEN }}
