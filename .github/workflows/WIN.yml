@@ -1,0 +1,26 @@
+name: Windows
+
+on:
+ push:
+   tags:
+     - g**
+
+jobs:
+
+  build_packages_WIN:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    -  name: Build MSI
+       run: |
+         mkdir build && cd build
+         cmake -DGENERATOR=BIN ..
+         cmake --build .
+         cpack -C CPackConfig.cmake -G WIX
+    - name: Release
+      uses: ncipollo/release-action@v1.10.0
+
+      with:
+        artifacts: "build/*.msi"
+        token: ${{ secrets.TOKEN }}
