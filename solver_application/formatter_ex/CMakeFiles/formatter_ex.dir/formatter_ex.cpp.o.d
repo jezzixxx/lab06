@@ -1,7 +1,7 @@
-/home/jezzixxx/projects/lab03/solver_application/formatter_ex/CMakeFiles/formatter_ex.dir/formatter_ex.cpp.o: \
- /home/jezzixxx/projects/lab03/formatter_ex_lib/formatter_ex.cpp \
+/home/jezzixxx/projects/lab06/lab03/solver_application/formatter_ex/CMakeFiles/formatter_ex.dir/formatter_ex.cpp.o: \
+ /home/jezzixxx/projects/lab06/lab03/formatter_ex_lib/formatter_ex.cpp \
  /usr/include/stdc-predef.h \
- /home/jezzixxx/projects/lab03/formatter_ex_lib/formatter_ex.h \
+ /home/jezzixxx/projects/lab06/lab03/formatter_ex_lib/formatter_ex.h \
  /usr/include/c++/12/string \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
@@ -156,4 +156,4 @@
  /usr/include/c++/12/bits/basic_ios.tcc \
  /usr/include/c++/12/bits/ostream.tcc /usr/include/c++/12/istream \
  /usr/include/c++/12/bits/istream.tcc \
- /home/jezzixxx/projects/lab03/formatter_lib/formatter.h
+ /home/jezzixxx/projects/lab06/lab03/formatter_lib/formatter.h

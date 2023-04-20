@@ -1,7 +1,7 @@
-/home/jezzixxx/projects/lab03/solver_application/solver_lib/CMakeFiles/solver_lib.dir/solver.cpp.o: \
- /home/jezzixxx/projects/lab03/solver_lib/solver.cpp \
+/home/jezzixxx/projects/lab06/lab03/solver_application/solver_lib/CMakeFiles/solver_lib.dir/solver.cpp.o: \
+ /home/jezzixxx/projects/lab06/lab03/solver_lib/solver.cpp \
  /usr/include/stdc-predef.h \
- /home/jezzixxx/projects/lab03/solver_lib/solver.h \
+ /home/jezzixxx/projects/lab06/lab03/solver_lib/solver.h \
  /usr/include/c++/12/cmath \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \

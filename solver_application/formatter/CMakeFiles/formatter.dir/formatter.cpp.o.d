@@ -1,7 +1,7 @@
-/home/jezzixxx/projects/lab03/solver_application/formatter/CMakeFiles/formatter.dir/formatter.cpp.o: \
- /home/jezzixxx/projects/lab03/formatter_lib/formatter.cpp \
+/home/jezzixxx/projects/lab06/lab03/solver_application/formatter/CMakeFiles/formatter.dir/formatter.cpp.o: \
+ /home/jezzixxx/projects/lab06/lab03/formatter_lib/formatter.cpp \
  /usr/include/stdc-predef.h \
- /home/jezzixxx/projects/lab03/formatter_lib/formatter.h \
+ /home/jezzixxx/projects/lab06/lab03/formatter_lib/formatter.h \
  /usr/include/c++/12/string \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \

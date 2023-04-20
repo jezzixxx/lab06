@@ -1,0 +1,12 @@
+/home/jezzixxx/projects/lab06/lab03/solver_application/CMakeFiles/source.dir
+/home/jezzixxx/projects/lab06/lab03/solver_application/CMakeFiles/edit_cache.dir
+/home/jezzixxx/projects/lab06/lab03/solver_application/CMakeFiles/rebuild_cache.dir
+/home/jezzixxx/projects/lab06/lab03/solver_application/solver_lib/CMakeFiles/solver_lib.dir
+/home/jezzixxx/projects/lab06/lab03/solver_application/solver_lib/CMakeFiles/edit_cache.dir
+/home/jezzixxx/projects/lab06/lab03/solver_application/solver_lib/CMakeFiles/rebuild_cache.dir
+/home/jezzixxx/projects/lab06/lab03/solver_application/formatter_ex/CMakeFiles/formatter_ex.dir
+/home/jezzixxx/projects/lab06/lab03/solver_application/formatter_ex/CMakeFiles/edit_cache.dir
+/home/jezzixxx/projects/lab06/lab03/solver_application/formatter_ex/CMakeFiles/rebuild_cache.dir
+/home/jezzixxx/projects/lab06/lab03/solver_application/formatter/CMakeFiles/formatter.dir
+/home/jezzixxx/projects/lab06/lab03/solver_application/formatter/CMakeFiles/edit_cache.dir
+/home/jezzixxx/projects/lab06/lab03/solver_application/formatter/CMakeFiles/rebuild_cache.dir

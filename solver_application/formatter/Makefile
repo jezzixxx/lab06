@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jezzixxx/projects/lab03/solver_application
+CMAKE_SOURCE_DIR = /home/jezzixxx/projects/lab06/lab03/solver_application
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jezzixxx/projects/lab03/solver_application/_build
+CMAKE_BINARY_DIR = /home/jezzixxx/projects/lab06/lab03/solver_application/_build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jezzixxx/projects/lab03/solver_application/_build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jezzixxx/projects/lab03/solver_application/_build/CMakeFiles /home/jezzixxx/projects/lab03/solver_application/formatter//CMakeFiles/progress.marks
-	cd /home/jezzixxx/projects/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/jezzixxx/projects/lab03/solver_application/formatter/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jezzixxx/projects/lab03/solver_application/_build/CMakeFiles 0
+	cd /home/jezzixxx/projects/lab06/lab03/solver_application/_build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jezzixxx/projects/lab06/lab03/solver_application/_build/CMakeFiles /home/jezzixxx/projects/lab06/lab03/solver_application/formatter//CMakeFiles/progress.marks
+	cd /home/jezzixxx/projects/lab06/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/jezzixxx/projects/lab06/lab03/solver_application/formatter/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jezzixxx/projects/lab06/lab03/solver_application/_build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jezzixxx/projects/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/jezzixxx/projects/lab03/solver_application/formatter/clean
+	cd /home/jezzixxx/projects/lab06/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/jezzixxx/projects/lab06/lab03/solver_application/formatter/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,31 +103,31 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jezzixxx/projects/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/jezzixxx/projects/lab03/solver_application/formatter/preinstall
+	cd /home/jezzixxx/projects/lab06/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/jezzixxx/projects/lab06/lab03/solver_application/formatter/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jezzixxx/projects/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/jezzixxx/projects/lab03/solver_application/formatter/preinstall
+	cd /home/jezzixxx/projects/lab06/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/jezzixxx/projects/lab06/lab03/solver_application/formatter/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jezzixxx/projects/lab03/solver_application/_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jezzixxx/projects/lab06/lab03/solver_application/_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-/home/jezzixxx/projects/lab03/solver_application/formatter/CMakeFiles/formatter.dir/rule:
-	cd /home/jezzixxx/projects/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/jezzixxx/projects/lab03/solver_application/formatter/CMakeFiles/formatter.dir/rule
-.PHONY : /home/jezzixxx/projects/lab03/solver_application/formatter/CMakeFiles/formatter.dir/rule
+/home/jezzixxx/projects/lab06/lab03/solver_application/formatter/CMakeFiles/formatter.dir/rule:
+	cd /home/jezzixxx/projects/lab06/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/jezzixxx/projects/lab06/lab03/solver_application/formatter/CMakeFiles/formatter.dir/rule
+.PHONY : /home/jezzixxx/projects/lab06/lab03/solver_application/formatter/CMakeFiles/formatter.dir/rule
 
 # Convenience name for target.
-formatter: /home/jezzixxx/projects/lab03/solver_application/formatter/CMakeFiles/formatter.dir/rule
+formatter: /home/jezzixxx/projects/lab06/lab03/solver_application/formatter/CMakeFiles/formatter.dir/rule
 .PHONY : formatter
 
 # fast build rule for target.
 formatter/fast:
-	cd /home/jezzixxx/projects/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f /home/jezzixxx/projects/lab03/solver_application/formatter/CMakeFiles/formatter.dir/build.make /home/jezzixxx/projects/lab03/solver_application/formatter/CMakeFiles/formatter.dir/build
+	cd /home/jezzixxx/projects/lab06/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f /home/jezzixxx/projects/lab06/lab03/solver_application/formatter/CMakeFiles/formatter.dir/build.make /home/jezzixxx/projects/lab06/lab03/solver_application/formatter/CMakeFiles/formatter.dir/build
 .PHONY : formatter/fast
 
 formatter.o: formatter.cpp.o
@@ -135,7 +135,7 @@ formatter.o: formatter.cpp.o
 
 # target to build an object file
 formatter.cpp.o:
-	cd /home/jezzixxx/projects/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f /home/jezzixxx/projects/lab03/solver_application/formatter/CMakeFiles/formatter.dir/build.make /home/jezzixxx/projects/lab03/solver_application/formatter/CMakeFiles/formatter.dir/formatter.cpp.o
+	cd /home/jezzixxx/projects/lab06/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f /home/jezzixxx/projects/lab06/lab03/solver_application/formatter/CMakeFiles/formatter.dir/build.make /home/jezzixxx/projects/lab06/lab03/solver_application/formatter/CMakeFiles/formatter.dir/formatter.cpp.o
 .PHONY : formatter.cpp.o
 
 formatter.i: formatter.cpp.i
@@ -143,7 +143,7 @@ formatter.i: formatter.cpp.i
 
 # target to preprocess a source file
 formatter.cpp.i:
-	cd /home/jezzixxx/projects/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f /home/jezzixxx/projects/lab03/solver_application/formatter/CMakeFiles/formatter.dir/build.make /home/jezzixxx/projects/lab03/solver_application/formatter/CMakeFiles/formatter.dir/formatter.cpp.i
+	cd /home/jezzixxx/projects/lab06/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f /home/jezzixxx/projects/lab06/lab03/solver_application/formatter/CMakeFiles/formatter.dir/build.make /home/jezzixxx/projects/lab06/lab03/solver_application/formatter/CMakeFiles/formatter.dir/formatter.cpp.i
 .PHONY : formatter.cpp.i
 
 formatter.s: formatter.cpp.s
@@ -151,7 +151,7 @@ formatter.s: formatter.cpp.s
 
 # target to generate assembly for a file
 formatter.cpp.s:
-	cd /home/jezzixxx/projects/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f /home/jezzixxx/projects/lab03/solver_application/formatter/CMakeFiles/formatter.dir/build.make /home/jezzixxx/projects/lab03/solver_application/formatter/CMakeFiles/formatter.dir/formatter.cpp.s
+	cd /home/jezzixxx/projects/lab06/lab03/solver_application/_build && $(MAKE) $(MAKESILENT) -f /home/jezzixxx/projects/lab06/lab03/solver_application/formatter/CMakeFiles/formatter.dir/build.make /home/jezzixxx/projects/lab06/lab03/solver_application/formatter/CMakeFiles/formatter.dir/formatter.cpp.s
 .PHONY : formatter.cpp.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jezzixxx/projects/lab03/solver_application/_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jezzixxx/projects/lab06/lab03/solver_application/_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

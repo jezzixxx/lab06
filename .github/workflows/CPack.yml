@@ -5,7 +5,7 @@ on:
    tags:
      - v**
 
-jobs: 
+jobs:
 
   build_packages_Linux:
 
@@ -29,5 +29,6 @@ jobs:
     - name: Make a release
       uses: ncipollo/release-action@v1.10.0
       with:
-        artifacts: "build/*.deb,build/*.tar.gz,build/*.zip,build/*.rpm"
+        artifacts: "build/*.deb,build/*.tar.gz,build/*.zip,build/*.rpm,build/*.dmg"
         token: ${{ secrets.TOKEN }}
+

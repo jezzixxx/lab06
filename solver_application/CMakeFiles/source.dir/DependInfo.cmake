@@ -8,11 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/jezzixxx/projects/lab06/lab03/formatter_ex_lib/formatter_ex.cpp" "/home/jezzixxx/projects/lab06/lab03/solver_application/formatter_ex/CMakeFiles/formatter_ex.dir/formatter_ex.cpp.o" "gcc" "/home/jezzixxx/projects/lab06/lab03/solver_application/formatter_ex/CMakeFiles/formatter_ex.dir/formatter_ex.cpp.o.d"
+  "/home/jezzixxx/projects/lab06/lab03/solver_application/equation.cpp" "CMakeFiles/source.dir/equation.cpp.o" "gcc" "CMakeFiles/source.dir/equation.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/jezzixxx/projects/lab06/lab03/solver_application/solver_lib/CMakeFiles/solver_lib.dir/DependInfo.cmake"
+  "/home/jezzixxx/projects/lab06/lab03/solver_application/formatter_ex/CMakeFiles/formatter_ex.dir/DependInfo.cmake"
   "/home/jezzixxx/projects/lab06/lab03/solver_application/formatter/CMakeFiles/formatter.dir/DependInfo.cmake"
   )
 
