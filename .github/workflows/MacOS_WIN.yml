@@ -1,48 +1,24 @@
-name: MacOS_WIN
-
+name: MacOS
 on:
  push:
    tags:
-     - g**
+     - y**
 
 jobs:
-  build_packages_MacOS:
+  build_packages_dmg:
+      runs-on: macos-latest
+      steps:
+      - uses: actions/checkout@v3
 
-    runs-on: macos-latest
-
-    steps:
-    - uses: actions/checkout@v3
-
-    -  name: Build MacOS
-       run: |
+      -  name: Build DMG
+         run: |
            mkdir build && cd build
            cmake -DGENERATOR=BIN ..
            cmake --build .
            cpack -G DragNDrop
+      - name: Release
+        uses: ncipollo/release-action@v1.10.0
 
-    - name: Make a release
-      uses: ncipollo/release-action@v1.10.0
-      with:
-        artifacts: "build/*.dmg"
-        token: ${{ secrets.TOKEN }}
-
-  build_packages_WIN:
-
-    runs-on: windows-latest
-
-   steps:
-    - uses: actions/checkout@v3
-
-    -  name: Build WIN
-       run: |
-         mkdir build && cd build
-         cmake -DGENERATOR=BIN ..
-         cmake --build .
-         cpack -C CPackConfig.cmake -G WIX
-
-    - name: Make a release
-      uses: ncipollo/release-action@v1.10.0
-      with:
-        artifacts: "build/*.msi"
-        token: ${{ secrets.TOKEN }}
-
+        with:
+          artifacts: "build/*.dmg"
+          token: ${{ secrets.TOKEN }}
